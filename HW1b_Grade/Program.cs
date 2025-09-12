@@ -42,7 +42,7 @@ namespace HW1b_Grade
             //quiz grades are counted with participation
 
             double total = (homeworkgrade * .2) + (((participationgrade + quizgrade) / 2) * .15) + (exam1 * .15) + (midtermgrade * .25) + (finalgrade * .25);
-            Console.WriteLine($"{firstname} {lastname} ({id}), your final grade is {total}");
+            Console.WriteLine($"{firstname} {lastname} ({id}), your final grade is {total}%");
             Console.ReadKey();
             //DONE
         }
